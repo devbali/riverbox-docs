@@ -1,4 +1,4 @@
-# Execute the Sample Notebook
+# Use an External Call in a Notebook
 
 This is a basic tutorial to walk you through the steps to go from logging in to executing a riverbox notebook by calling an external call to a pre-made notebook
 
