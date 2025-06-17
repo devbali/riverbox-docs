@@ -4,6 +4,8 @@ This is a basic tutorial to walk you through the steps to go from logging in to 
 
 This is a whole separate project, with its own filesystem. It has a paper about "Delayed Fair Sharing" you can ask about on its filesystem (RAG).
 
+Note that the "vLLM" riverbox runs a "base model", so answers may not be what you expect from "instruction tuned" models. 
+
 ## Login
 - From the landing page of the website, login.
 - This could be an OAuth or username-password style credentials.
