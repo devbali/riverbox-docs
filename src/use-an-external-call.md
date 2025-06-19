@@ -37,13 +37,12 @@ Once you do this, you should see an empty Riverbox page that looks like this
 ## External Call
 - Now it is time to add the box that calls into my external riverbox
 - Make a "NEW NESTED" box, and search for "Dev's" in the search bar. You should see two options, a OpenAI one and a vLLM one. 
-    - You can pick either one, note that the vLLM one takes a list of prompts while the OpenAI one takes a string prompt
-    - Do not overuse the demos!
+    - You can pick either one, or both in parallel!
 
 ![New Nested Box](./imgs/use-an-external-call-3.png)
 
 - You can now add an input box, with a "Default Value" of the prompt (s) you want to test out, a long with (optionally) an output box
-    - Alternatively, you can add a new code box, and have a single line `rbxm.output = {whatever you want the prompt(s) to be as a python list or string}`
+    - Alternatively, you can add a new code box, and have a single line `rbxm.output = "{whatever you want the prompt to be as a python string}"`
 - Your riverbox should look something like this:
 
 ![Fully made Riverbox](./imgs/use-an-external-call-4.png)
